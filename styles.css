@@ -23,6 +23,13 @@ h2 {
 	color: #181818;
 }
 
+h3 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40.85px;
+	color: #474747;
+}
+
 p {
 	font-size: 18px;
 	color: #757575;
@@ -225,9 +232,132 @@ h1 {
 	box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 
+#service .card-title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27.24px;
+	color: #181818;
+	margin-top: 30px;
+}
+
 .card p {
 	font-size: 16px;
 	line-height: 28px;
 	text-align: left;
 }
 /* services end */
+
+/* resume start */
+#resume {
+	margin-top: 120px;
+}
+
+#resume h2 {
+	text-align: center;
+}
+
+.resume-content {
+	display: flex;
+	justify-content: space-between;
+	gap: 72px;
+	margin-top: 112px;
+}
+
+#resume .card {
+	border-bottom: 1px solid #d1d1d1;
+	padding: 30px 0;
+}
+
+#resume .card-title {
+	font-size: 25px;
+	font-weight: 700;
+	color: #474747;
+}
+
+.education-timeline,
+.experience-timeline {
+	margin-top: 30px;
+}
+
+.institute,
+.employer {
+	font-size: 20px;
+	font-weight: 600;
+	color: #757575;
+	margin-top: 10px;
+}
+
+#resume .card:nth-child(3) {
+	border: none;
+}
+
+#resume .card p {
+	margin-top: 20px;
+}
+
+#resume button {
+	margin: 0 auto;
+}
+/* resume end */
+
+/* footer start */
+footer {
+	background: #fff8f3;
+	padding: 120px 0;
+	margin-top: 120px;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	gap: 128px;
+}
+
+.connect,
+.contact-form {
+	width: 50%;
+}
+
+footer .connect p {
+	margin-top: 20px;
+}
+
+footer .social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	gap: 24px;
+	margin-top: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin-top: 28px;
+}
+
+form .form-control {
+	width: 100%;
+	height: 64px;
+	font-size: 16px;
+	outline: none;
+	background: #ffffff;
+	border-radius: 5px;
+	border: none;
+	padding: 0 30px;
+}
+
+form textarea {
+	width: 100%;
+	background-color: #fff;
+	border: none;
+	padding: 18px 30px;
+	outline: none;
+}
+
+footer .btn {
+	width: 150px;
+	font-weight: 700;
+}
+/* footer end */
